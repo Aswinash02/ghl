@@ -35,7 +35,6 @@ class _LeadDataFilterStatusState extends State<LeadDataFilterStatus> {
 
   @override
   void initState() {
-    // TODO: implement initState
     leadStatusFilterController.getCurrentDate();
     leadStatusFilterController.fetchFilterLeadStatus(
         widget.statusId, widget.filterBy);
